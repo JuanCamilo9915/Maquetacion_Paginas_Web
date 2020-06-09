@@ -13,7 +13,7 @@ Notas HTML5:
         (Continuo con la etiqueta h1 para seguir con la misma linea y entender mejor estos 2 tipos de etiquetas), nos da a conocer que 
         hasta aqui llega el texto con caracteristivas de la etiqueta h1 y asi sucesivamente.
             -NOTA: esta etiqueta de cierre debe ser exactamente la misma de apertura para evitar errores de formato, por ejemplo: " <h1></h3> ",
-            lo anterior no es correcto porque y aunque estas etiquetas hacen referencia a texto, tiene caracteristicas totalmente diferentes y 
+            lo anterior NO es correcto porque y aunque estas etiquetas hacen referencia a texto, tiene caracteristicas totalmente diferentes y 
             una de estas es el tamaño, la manera correcta es la siguiente: " <h3></h3> ".
 
 
