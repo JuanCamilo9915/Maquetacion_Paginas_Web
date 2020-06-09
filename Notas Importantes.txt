@@ -1,8 +1,25 @@
 Notas HTML5:
--el "index.html" es el archivo principal de la estructura del Front-end del proyecto y es el primer archivo
-que el "navegador" va a buscar dentro del mismo, por tal motivo siempre se debe llamar asi el archivo de html principal.
+    -El "index.html" es el archivo principal de la "estructura" del Front-end del proyecto y es el primer archivo
+    que el "navegador" va a buscar dentro del mismo, por tal motivo siempre se debe llamar asi el archivo de html principal.
 
+    Estructura:
+    Para trabajar con HTML y HTML5 es importante conocer que aqui se trabajan con "etiquetas", estas se identifican porque
+    estan o reposan dentro de "<" y ">" dando como resultado lo siguiente " <h1> " y que estas son de 2 tipos.
+        *Primer Tipo (Etiqueta de Apertura):estas corresponden e indican "el inicio" de un apartado, por ejemplo: si tenemos " <h1> " nos da a 
+        conocer que aqui "comienza un texto" con caracteristicas de esa etiqueta y asi sucesivamente con las demas etiquetas.
+
+        *Segundo Tipo (Etiquetas de Cierre): estas corresponden e indican "el final" de un apartado y se diferencian de las de apertura porque
+        llevan dentro un "/" como podemos ver a continuacion: "</" etiqueta correspondiente ">  ", por ejemplo: si tenemos " </h1> ", 
+        (Continuo con la etiqueta h1 para seguir con la misma linea y entender mejor estos 2 tipos de etiquetas), nos da a conocer que 
+        hasta aqui llega el texto con caracteristivas de la etiqueta h1 y asi sucesivamente.
+            -NOTA: esta etiqueta de cierre debe ser exactamente la misma de apertura para evitar errores de formato, por ejemplo: " <h1></h3> ",
+            lo anterior no es correcto porque y aunque estas etiquetas hacen referencia a texto, tiene caracteristicas totalmente diferentes y 
+            una de estas es el tamaño, la manera correcta es la siguiente: " <h3></h3> ".
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
 Notas CSS3:
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------
 Notas Bootstrap:
