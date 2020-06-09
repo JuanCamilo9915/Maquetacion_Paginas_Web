@@ -1,5 +1,6 @@
 Notas HTML5:
-
+-el "index.html" es el archivo principal de la estructura del Front-end del proyecto y es el primer archivo
+que el "navegador" va a buscar dentro del mismo, por tal motivo siempre se debe llamar asi el archivo de html principal.
 
 Notas CSS3:
 
