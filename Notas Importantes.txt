@@ -15,8 +15,13 @@ Notas HTML5:
             -NOTA: esta etiqueta de cierre debe ser exactamente la misma de apertura para evitar errores de formato, por ejemplo: " <h1></h3> ",
             lo anterior NO es correcto porque y aunque estas etiquetas hacen referencia a texto, tiene caracteristicas totalmente diferentes y 
             una de estas es el tamaño, la manera correcta es la siguiente: " <h3></h3> ".
+            
+    Cabe resaltar que estas etiquetas de HTML pueden tener Atributos y a ellos se les asigna un valor, como podemos ver a continuacion: 
+    <meta charset="UTF-8">, donde "meta" es la etiqueta, "charset" es el atributo y " "UTF-8" " es el valor.
+    Para este ultimo siempre debe ir dentro de unas "".
 
-
+    Adicional: Todo el codigo HTML5 estara comentada.
+    Atajos: https://www.youtube.com/watch?v=dGcXOu4g3NQ
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Notas CSS3:
