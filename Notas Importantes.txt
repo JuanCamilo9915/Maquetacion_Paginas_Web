@@ -25,6 +25,21 @@ Notas HTML5:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Notas CSS3:
+    -Estas hojas de estilos (CSS) representan el "Fisico", por decirlo asi, de cualquier desarrollo Web y que se aplican a la estructura (HTML) de 
+    las paginas Web, para que visualmente sean "llamativas" y mas "agradables"; cabe mencionar que hay 2 maneras de utilizar CSS, las cuales son:
+        *Primera Manera: esta hace referencia a colocar todo el codigo dentro del archivo ".HTML", y para ello se utiliza la sigte etiqueta: 
+        " <style></style> ". Pero esta NO es una practica que se utilice, y adicional a ello NO es buena practica hacerlo.
+
+        *Segunda Manera: esta hace referencia a "separar" todo el codigo del archivo ".HTML", y para ello se crea un nuevo archivo ".CSS" en 
+        el mismo directorio (Carpeta) donde se encuentra el "HTML", y para hacer uso de ese nuevo archivo utilizamos la siguiente etiqueta:
+        " <link href="estilo.css" type="text/css" rel="stylesheet" media=""> ", donde tenemos atributos correspondientes a la etiqueta " <link> "
+        y cada "atributo" esta compuesto por su "Clave", que corresponden a (href, type, rel, media) y su "Valor" que corresponde a ("estilo.css"
+        siendo la ruta donde esta ubicado el ".CSS", "text/css", "stylesheet", ""). Siendo esta utilizada, porque es una buena practica de 
+        desarrollo.
+
+        Elementos del CSS:
+            Aqui nos encontramos con los "ID", que son representados y/o identificados por un " # ", las "CLASES", estas identificadas por
+            un punto " . ", y por ultimo pero NO menos importante tenemos el "UNIVERSAL", identificado por un asterisco " * ".
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Notas Bootstrap:
