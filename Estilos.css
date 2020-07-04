@@ -1,4 +1,15 @@
-*{
-    margin: auto;
+body{
     background-color: bisque;
+}
+
+header{
+    background-color: chartreuse;
+}
+
+main{
+    background-color: darkgoldenrod;
+}
+
+footer{
+    background-color: blue;
 }
