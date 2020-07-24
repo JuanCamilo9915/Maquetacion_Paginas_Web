@@ -40,6 +40,24 @@ Notas CSS3:
         Elementos del CSS:
             Aqui nos encontramos con los "ID", que son representados y/o identificados por un " # ", las "CLASES", estas identificadas por
             un punto " . ", y por ultimo pero NO menos importante tenemos el "UNIVERSAL", identificado por un asterisco " * ".
+            CSS implementa tambien las "Variables CSS" o "Custom Properties" y se implementa de la sigte manera:
+                Ejemplo de Variable CSS:
+                    1-Implementacion:
+                        :root{
+                            --color: green;
+                            --color2: orange;
+                        }
+                        "root", es una palabra reservada del CSS para encapsular dentro del bloque "root" todas las variables.
+                    2-Utilizacion:
+                        body{
+                            /*background-color: bisque;*/
+                            background-color: var(--color);
+                        }
+                        footer{
+                            /*background-color: blue;*/
+                            background-color: var(--color2);
+                        }
+                        se utiliza la palabra recervada "var", para indicar la variable que se esta utilizando.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Notas Bootstrap:
