@@ -4,6 +4,48 @@
     --color2: orange;
 }
 /*------------------------------------*/
+
+/*Selectores Compuestos: Agrupados*/
+/*h1{}*/
+h1,p{
+    background-image: none;
+    margin-left: 0rem;
+}
+/*------------------------------------*/
+/*Selectores Compuestos: Combinados*/
+/*h1{}*/
+h1.caja#carros{
+    width: 0rem;
+    padding: 0px;
+}
+
+h1#motos{
+    width: 0rem;
+    padding: 0px;
+}
+/*------------------------------------*/
+
+/*Selectores Compuestos: Decendientes*/
+/*h1{}*/
+body h1 p{
+    background-image: none;
+    margin-left: 0rem;
+    align-self: auto;
+}
+/*------------------------------------*/
+
+/*Selectores con operadores*/
+
+/*------------------------------------*/
+
+/*Selectores con atributos*/
+
+
+/*------------------------------------*/
+
+/*Selectores con atributos con comodines*/
+
+/*------------------------------------*/
 body{
     /*background-color: bisque;*/
     background-color: var(--color);
